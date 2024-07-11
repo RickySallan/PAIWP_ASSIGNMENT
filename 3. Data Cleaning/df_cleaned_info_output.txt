@@ -8,6 +8,6 @@ Data columns (total 6 columns):
  2   Churn Value                      7043 non-null   int64  
  3   Total Customer Svc Requests      7043 non-null   int64  
  4   Product/Service Issues Reported  7043 non-null   int64  
- 5   Customer Satisfaction            1834 non-null   float64
+ 5   Customer Satisfaction            7043 non-null   float64
 dtypes: float64(1), int64(4), object(1)
 memory usage: 330.3+ KB
