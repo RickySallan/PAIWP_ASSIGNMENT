@@ -19,7 +19,7 @@ df = pd.read_csv(file_path)
 
 columns_to_drop = ['Customer ID','Referred a Friend','Number of Referrals','Offer','Phone Service','Avg Monthly Long Distance Charges','Multiple Lines','Internet Service','Internet Type','Avg Monthly GB Download','Online Security','Online Backup','Device Protection Plan','Premium Tech Support','Streaming TV','Streaming Movies','Streaming Music','Unlimited Data','Paperless Billing','Payment Method','Monthly Charge','Total Regular Charges','Total Refunds','Total Extra Data Charges','Total Long Distance Charges','Gender','Age','Under 30','Senior Citizen','Married','Dependents','Number of Dependents','City','Zip Code','Latitude','Longitude','Population','CLTV','Churn Category','Churn Reason']
 
-df_cleaned=df.drop(columns=columns_to_drop).dropna()
+df_cleaned=df.drop(columns=columns_to_drop)
 ##############################################################################################################################################
 
 ##############################################################################################################################################

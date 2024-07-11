@@ -1,52 +1,13 @@
 <class 'pandas.core.frame.DataFrame'>
-Index: 276 entries, 3 to 2534
-Data columns (total 45 columns):
- #   Column                             Non-Null Count  Dtype  
----  ------                             --------------  -----  
- 0   Referred a Friend                  276 non-null    object 
- 1   Number of Referrals                276 non-null    int64  
- 2   Tenure in Months                   276 non-null    int64  
- 3   Offer                              276 non-null    object 
- 4   Phone Service                      276 non-null    object 
- 5   Avg Monthly Long Distance Charges  276 non-null    float64
- 6   Multiple Lines                     276 non-null    object 
- 7   Internet Service                   276 non-null    object 
- 8   Internet Type                      276 non-null    object 
- 9   Avg Monthly GB Download            276 non-null    int64  
- 10  Online Security                    276 non-null    object 
- 11  Online Backup                      276 non-null    object 
- 12  Device Protection Plan             276 non-null    object 
- 13  Premium Tech Support               276 non-null    object 
- 14  Streaming TV                       276 non-null    object 
- 15  Streaming Movies                   276 non-null    object 
- 16  Streaming Music                    276 non-null    object 
- 17  Unlimited Data                     276 non-null    object 
- 18  Contract                           276 non-null    object 
- 19  Paperless Billing                  276 non-null    object 
- 20  Payment Method                     276 non-null    object 
- 21  Monthly Charge                     276 non-null    float64
- 22  Total Regular Charges              276 non-null    float64
- 23  Total Refunds                      276 non-null    float64
- 24  Total Extra Data Charges           276 non-null    float64
- 25  Total Long Distance Charges        276 non-null    float64
- 26  Gender                             276 non-null    object 
- 27  Age                                276 non-null    int64  
- 28  Under 30                           276 non-null    object 
- 29  Senior Citizen                     276 non-null    object 
- 30  Married                            276 non-null    object 
- 31  Dependents                         276 non-null    object 
- 32  Number of Dependents               276 non-null    int64  
- 33  City                               276 non-null    object 
- 34  Zip Code                           276 non-null    int64  
- 35  Latitude                           276 non-null    float64
- 36  Longitude                          276 non-null    float64
- 37  Population                         276 non-null    int64  
- 38  Churn Value                        276 non-null    int64  
- 39  CLTV                               276 non-null    int64  
- 40  Churn Category                     276 non-null    object 
- 41  Churn Reason                       276 non-null    object 
- 42  Total Customer Svc Requests        276 non-null    int64  
- 43  Product/Service Issues Reported    276 non-null    int64  
- 44  Customer Satisfaction              276 non-null    float64
-dtypes: float64(9), int64(11), object(25)
-memory usage: 99.2+ KB
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 6 columns):
+ #   Column                           Non-Null Count  Dtype  
+---  ------                           --------------  -----  
+ 0   Tenure in Months                 7043 non-null   int64  
+ 1   Contract                         7043 non-null   object 
+ 2   Churn Value                      7043 non-null   int64  
+ 3   Total Customer Svc Requests      7043 non-null   int64  
+ 4   Product/Service Issues Reported  7043 non-null   int64  
+ 5   Customer Satisfaction            1834 non-null   float64
+dtypes: float64(1), int64(4), object(1)
+memory usage: 330.3+ KB
