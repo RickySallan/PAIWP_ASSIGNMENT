@@ -1,0 +1,13 @@
+<class 'pandas.core.frame.DataFrame'>
+Index: 1834 entries, 3 to 7040
+Data columns (total 6 columns):
+ #   Column                           Non-Null Count  Dtype  
+---  ------                           --------------  -----  
+ 0   Tenure in Months                 1834 non-null   int64  
+ 1   Contract                         1834 non-null   object 
+ 2   Churn Value                      1834 non-null   int64  
+ 3   Total Customer Svc Requests      1834 non-null   int64  
+ 4   Product/Service Issues Reported  1834 non-null   int64  
+ 5   Customer Satisfaction            1834 non-null   float64
+dtypes: float64(1), int64(4), object(1)
+memory usage: 100.3+ KB
