@@ -9,7 +9,7 @@ import pandas as pd
 
 # CSV file has been loaded to PAIWP_ASSIGNMENT GitHub repository
 
-file_path = '/workspaces/PAIWP_ASSIGNMENT/telco_churn_data.csv'
+file_path = '/workspaces/PAIWP_ASSIGNMENT/1. Dataset/telco_churn_data.csv'
 df = pd.read_csv(file_path)
 ##############################################################################################################################################
 
@@ -18,7 +18,7 @@ df = pd.read_csv(file_path)
 
 import os
 
-output_folder='/workspaces/PAIWP_ASSIGNMENT/1. Initial Data Analysis'
+output_folder='/workspaces/PAIWP_ASSIGNMENT/2. Initial Data Analysis'
 
 # df.shape - How many rows and columns does the dataset have? -- I have also used this function to test if the file has been loaded successfully
 df_shape=df.shape
