@@ -1,0 +1,53 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 46 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   Customer ID                        7043 non-null   object 
+ 1   Referred a Friend                  7043 non-null   object 
+ 2   Number of Referrals                7043 non-null   int64  
+ 3   Tenure in Months                   7043 non-null   int64  
+ 4   Offer                              3166 non-null   object 
+ 5   Phone Service                      7043 non-null   object 
+ 6   Avg Monthly Long Distance Charges  7043 non-null   float64
+ 7   Multiple Lines                     7043 non-null   object 
+ 8   Internet Service                   7043 non-null   object 
+ 9   Internet Type                      5517 non-null   object 
+ 10  Avg Monthly GB Download            7043 non-null   int64  
+ 11  Online Security                    7043 non-null   object 
+ 12  Online Backup                      7043 non-null   object 
+ 13  Device Protection Plan             7043 non-null   object 
+ 14  Premium Tech Support               7043 non-null   object 
+ 15  Streaming TV                       7043 non-null   object 
+ 16  Streaming Movies                   7043 non-null   object 
+ 17  Streaming Music                    7043 non-null   object 
+ 18  Unlimited Data                     7043 non-null   object 
+ 19  Contract                           7043 non-null   object 
+ 20  Paperless Billing                  7043 non-null   object 
+ 21  Payment Method                     7043 non-null   object 
+ 22  Monthly Charge                     7043 non-null   float64
+ 23  Total Regular Charges              7043 non-null   float64
+ 24  Total Refunds                      7043 non-null   float64
+ 25  Total Extra Data Charges           7043 non-null   float64
+ 26  Total Long Distance Charges        7043 non-null   float64
+ 27  Gender                             7043 non-null   object 
+ 28  Age                                7043 non-null   int64  
+ 29  Under 30                           7043 non-null   object 
+ 30  Senior Citizen                     7043 non-null   object 
+ 31  Married                            7043 non-null   object 
+ 32  Dependents                         7043 non-null   object 
+ 33  Number of Dependents               7043 non-null   int64  
+ 34  City                               7043 non-null   object 
+ 35  Zip Code                           7043 non-null   int64  
+ 36  Latitude                           7043 non-null   float64
+ 37  Longitude                          7043 non-null   float64
+ 38  Population                         7043 non-null   int64  
+ 39  Churn Value                        7043 non-null   int64  
+ 40  CLTV                               7043 non-null   int64  
+ 41  Churn Category                     1869 non-null   object 
+ 42  Churn Reason                       1869 non-null   object 
+ 43  Total Customer Svc Requests        7043 non-null   int64  
+ 44  Product/Service Issues Reported    7043 non-null   int64  
+ 45  Customer Satisfaction              1834 non-null   float64
+dtypes: float64(9), int64(11), object(26)
+memory usage: 2.5+ MB
