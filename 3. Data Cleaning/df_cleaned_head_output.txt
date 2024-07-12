@@ -1,11 +1,11 @@
- Tenure in Months       Contract  Churn Value  Total Customer Svc Requests  Product/Service Issues Reported  Customer Satisfaction
-                1 Month-to-Month            1                            5                                0                    0.0
-                8 Month-to-Month            1                            5                                0                    0.0
-               18 Month-to-Month            1                            1                                0                    0.0
-               25 Month-to-Month            1                            1                                1                    2.0
-               37 Month-to-Month            1                            1                                0                    2.0
-               27 Month-to-Month            1                            0                                0                    0.0
-                1 Month-to-Month            1                            7                                0                    0.0
-               58 Month-to-Month            1                            2                                1                    1.0
-               15 Month-to-Month            1                            3                                0                    2.0
-                7 Month-to-Month            1                            3                                0                    0.0
+ Tenure in Months       Contract  Churn Value  Churn Category                             Churn Reason  Total Customer Svc Requests  Product/Service Issues Reported  Customer Satisfaction
+                1 Month-to-Month            1      Competitor             Competitor offered more data                            5                                0                    NaN
+                8 Month-to-Month            1      Competitor             Competitor made better offer                            5                                0                    NaN
+               18 Month-to-Month            1      Competitor             Competitor made better offer                            1                                0                    NaN
+               25 Month-to-Month            1 Dissatisfaction                Limited range of services                            1                                1                    2.0
+               37 Month-to-Month            1           Price                       Extra data charges                            1                                0                    2.0
+               27 Month-to-Month            1      Competitor            Competitor had better devices                            0                                0                    NaN
+                1 Month-to-Month            1           Other                               Don't know                            7                                0                    NaN
+               58 Month-to-Month            1 Dissatisfaction                  Service dissatisfaction                            2                                1                    1.0
+               15 Month-to-Month            1 Dissatisfaction                Limited range of services                            3                                0                    2.0
+                7 Month-to-Month            1           Price Lack of affordable download/upload speed                            3                                0                    NaN

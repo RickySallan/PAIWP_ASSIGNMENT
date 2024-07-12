@@ -1,2 +1,2 @@
 Number of rows: 7043
-Number of columns: 6
+Number of columns: 8
