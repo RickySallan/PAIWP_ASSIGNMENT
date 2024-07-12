@@ -30,15 +30,15 @@ import os
 output_folder='/workspaces/PAIWP_ASSIGNMENT/3. Data Cleaning'
 
 # df_cleaned.shape - How many rows and columns does the dataset have? -- I have also used this function to test if the file has been loaded successfully
-df_shape=df_cleaned.shape
+df_cleaned_shape=df_cleaned.shape
 
 file_name_shape = "df_cleaned_shape_output.txt"
 
 full_file_path_shape=os.path.join(output_folder,file_name_shape)
 
 with open(full_file_path_shape,'w') as file:
-    file.write(f"Number of rows: {df_shape[0]}\n")
-    file.write(f"Number of columns: {df_shape[1]}\n")
+    file.write(f"Number of rows: {df_cleaned_shape[0]}\n")
+    file.write(f"Number of columns: {df_cleaned_shape[1]}\n")
 
 # df_cleaned.info - Print a summary of the Dataset to identify the data type of each column and non-null values -- This will assist with identifying which columns need to be cleaned
 from io import StringIO
