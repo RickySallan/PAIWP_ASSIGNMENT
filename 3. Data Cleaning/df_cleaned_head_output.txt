@@ -1,11 +1,501 @@
- Tenure in Months       Contract  Churn Value  Churn Category                             Churn Reason  Total Customer Svc Requests  Product/Service Issues Reported  Customer Satisfaction
-                1 Month-to-Month            1      Competitor             Competitor offered more data                            5                                0                    NaN
-                8 Month-to-Month            1      Competitor             Competitor made better offer                            5                                0                    NaN
-               18 Month-to-Month            1      Competitor             Competitor made better offer                            1                                0                    NaN
-               25 Month-to-Month            1 Dissatisfaction                Limited range of services                            1                                1                    2.0
-               37 Month-to-Month            1           Price                       Extra data charges                            1                                0                    2.0
-               27 Month-to-Month            1      Competitor            Competitor had better devices                            0                                0                    NaN
-                1 Month-to-Month            1           Other                               Don't know                            7                                0                    NaN
-               58 Month-to-Month            1 Dissatisfaction                  Service dissatisfaction                            2                                1                    1.0
-               15 Month-to-Month            1 Dissatisfaction                Limited range of services                            3                                0                    2.0
-                7 Month-to-Month            1           Price Lack of affordable download/upload speed                            3                                0                    NaN
+ Tenure in Months       Contract  Churn Value  Churn Category                              Churn Reason  Total Customer Svc Requests  Product/Service Issues Reported  Customer Satisfaction
+                1 Month-to-Month            1      Competitor              Competitor offered more data                            5                                0                    0.0
+                8 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    0.0
+               18 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               25 Month-to-Month            1 Dissatisfaction                 Limited range of services                            1                                1                    2.0
+               37 Month-to-Month            1           Price                        Extra data charges                            1                                0                    2.0
+               27 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                1 Month-to-Month            1           Other                                Don't know                            7                                0                    0.0
+               58 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            2                                1                    1.0
+               15 Month-to-Month            1 Dissatisfaction                 Limited range of services                            3                                0                    2.0
+                7 Month-to-Month            1           Price  Lack of affordable download/upload speed                            3                                0                    0.0
+               11 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            2                                2                    1.0
+               15 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                1 Month-to-Month            1 Dissatisfaction                 Limited range of services                            2                                0                    0.0
+                3 Month-to-Month            1           Price                     Long distance charges                            7                                1                    2.0
+               13 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    1.0
+               16 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                8 Month-to-Month            1 Dissatisfaction          Poor expertise of online support                            5                                2                    0.0
+               24 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+                4 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    3.0
+               32 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+               24 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               54       One Year            1      Competitor              Competitor made better offer                            3                                0                    0.0
+                2 Month-to-Month            1           Other                                Don't know                            4                                0                    3.0
+               21 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               27 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               11 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               55 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    0.0
+                3 Month-to-Month            1      Competitor              Competitor made better offer                            1                                3                    1.0
+                1 Month-to-Month            1 Dissatisfaction                       Network reliability                            7                                1                    2.0
+                5 Month-to-Month            1 Dissatisfaction                 Limited range of services                            4                                0                    2.0
+               20 Month-to-Month            1      Competitor             Competitor had better devices                            4                                1                    1.0
+                5 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            4                                2                    1.0
+               27 Month-to-Month            1        Attitude                Attitude of support person                            1                                0                    0.0
+                4 Month-to-Month            1      Competitor             Competitor had better devices                            2                                2                    1.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            5                                1                    1.0
+               65 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    0.0
+               49 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    2.0
+               43 Month-to-Month            1      Competitor              Competitor made better offer                            1                                1                    2.0
+               56       One Year            1      Competitor Competitor offered higher download speeds                            0                                0                    0.0
+               20 Month-to-Month            1      Competitor             Competitor had better devices                            2                                3                    0.0
+                2 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    0.0
+                8 Month-to-Month            1        Attitude                Attitude of support person                            6                                0                    0.0
+               52 Month-to-Month            1      Competitor              Competitor made better offer                            1                                1                    2.0
+                2 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    2.0
+               33 Month-to-Month            1           Other          Poor expertise of online support                            2                                2                    0.0
+               30 Month-to-Month            1      Competitor              Competitor made better offer                            4                                1                    0.0
+               20 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    0.0
+               46       One Year            1      Competitor              Competitor made better offer                            4                                0                    0.0
+                7 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+                4 Month-to-Month            1           Other                                     Moved                            3                                2                    0.0
+               55       One Year            1      Competitor Competitor offered higher download speeds                            6                                0                    0.0
+               20 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                9 Month-to-Month            1      Competitor             Competitor had better devices                            4                                1                    1.0
+               10 Month-to-Month            1      Competitor             Competitor had better devices                            5                                4                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            2                                0                    2.0
+                3 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            5                                1                    0.0
+                4 Month-to-Month            1      Competitor             Competitor had better devices                            6                                1                    1.0
+               35 Month-to-Month            1           Other                                Don't know                            5                                1                    1.0
+                2 Month-to-Month            1           Other                                Don't know                            5                                2                    2.0
+                8 Month-to-Month            1      Competitor             Competitor had better devices                            2                                5                    1.0
+               44 Month-to-Month            1      Competitor             Competitor had better devices                            4                                4                    1.0
+               62       One Year            1      Competitor             Competitor had better devices                            1                                2                    0.0
+               33 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    2.0
+                4 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               27 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    1.0
+                8 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    1.0
+                3 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    1.0
+                8 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               14 Month-to-Month            1      Competitor              Competitor offered more data                            0                                0                    0.0
+               12 Month-to-Month            1      Competitor             Competitor had better devices                            2                                4                    0.0
+               13 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    0.0
+               11 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+               17 Month-to-Month            1      Competitor              Competitor offered more data                            0                                0                    0.0
+               39 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+               11 Month-to-Month            1      Competitor              Competitor offered more data                            1                                0                    0.0
+                3 Month-to-Month            1        Attitude              Attitude of service provider                            0                                0                    0.0
+               21 Month-to-Month            1      Competitor             Competitor had better devices                            1                                1                    1.0
+               16 Month-to-Month            1           Other                                Don't know                            5                                0                    2.0
+               46       One Year            1      Competitor             Competitor had better devices                            1                                1                    0.0
+               68 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                7 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                2                    2.0
+               15 Month-to-Month            1      Competitor             Competitor had better devices                            3                                5                    0.0
+               16 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                2                    3.0
+                1 Month-to-Month            1        Attitude                Attitude of support person                            3                                1                    2.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                1                    0.0
+               13 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    1.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               34 Month-to-Month            1      Competitor             Competitor had better devices                            2                                2                    0.0
+                4 Month-to-Month            1      Competitor             Competitor had better devices                            4                                1                    0.0
+                2 Month-to-Month            1           Other          Poor expertise of online support                            4                                0                    0.0
+                9 Month-to-Month            1        Attitude                Attitude of support person                            8                                0                    0.0
+                5 Month-to-Month            1      Competitor             Competitor had better devices                            5                                4                    1.0
+               22 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    1.0
+               19 Month-to-Month            1      Competitor             Competitor had better devices                            2                                2                    0.0
+               15 Month-to-Month            1        Attitude                Attitude of support person                            1                                1                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            3                                4                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    0.0
+               10 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+                3 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+               12 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    2.0
+                2 Month-to-Month            1      Competitor              Competitor made better offer                            1                                1                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               13 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    1.0
+               23 Month-to-Month            1      Competitor              Competitor made better offer                            4                                1                    0.0
+               17 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               17 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               42 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                1                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            1                                4                    0.0
+               41 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    0.0
+               13 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    1.0
+               32 Month-to-Month            1        Attitude                Attitude of support person                            3                                2                    0.0
+               32 Month-to-Month            1      Competitor             Competitor had better devices                            5                                2                    0.0
+               57 Month-to-Month            1        Attitude                Attitude of support person                            7                                0                    2.0
+                1 Month-to-Month            1        Attitude                Attitude of support person                            9                                1                    2.0
+                1 Month-to-Month            1           Other          Poor expertise of online support                            1                                0                    0.0
+               38 Month-to-Month            1        Attitude                Attitude of support person                            3                                1                    1.0
+               35 Month-to-Month            1        Attitude                Attitude of support person                            6                                2                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            5                                2                    0.0
+               30 Month-to-Month            1        Attitude                Attitude of support person                            1                                0                    0.0
+                5 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            4                                1                    1.0
+               58       One Year            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               16 Month-to-Month            1        Attitude                Attitude of support person                            8                                2                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+                5 Month-to-Month            1      Competitor              Competitor made better offer                            4                                1                    1.0
+               21 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                1                    1.0
+               43 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               32 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    3.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            4                                0                    0.0
+               29 Month-to-Month            1        Attitude              Attitude of service provider                            4                                0                    3.0
+               13 Month-to-Month            1      Competitor             Competitor had better devices                            3                                2                    0.0
+                7 Month-to-Month            1        Attitude              Attitude of service provider                            5                                0                    0.0
+                2 Month-to-Month            1      Competitor             Competitor had better devices                            3                                6                    1.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            0                                0                    0.0
+                7 Month-to-Month            1        Attitude              Attitude of service provider                            2                                0                    2.0
+               57 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    2.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            2                                1                    0.0
+               17 Month-to-Month            1      Competitor             Competitor had better devices                            5                                3                    1.0
+                3 Month-to-Month            1        Attitude              Attitude of service provider                            2                                1                    2.0
+               66 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               69       Two Year            1        Attitude              Attitude of service provider                            1                                0                    0.0
+               15 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    0.0
+               56       One Year            1        Attitude              Attitude of service provider                            2                                0                    0.0
+               21 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               32 Month-to-Month            1           Other                                     Moved                            3                                1                    2.0
+               40 Month-to-Month            1      Competitor             Competitor had better devices                            3                                2                    0.0
+                2 Month-to-Month            1      Competitor              Competitor offered more data                            3                                0                    3.0
+                7 Month-to-Month            1      Competitor              Competitor made better offer                            6                                0                    3.0
+               31 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    0.0
+               14 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                4                    0.0
+               15 Month-to-Month            1      Competitor             Competitor had better devices                            4                                2                    1.0
+               59 Month-to-Month            1           Price                            Price too high                            3                                1                    0.0
+               46 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            3                                2                    0.0
+               25 Month-to-Month            1 Dissatisfaction          Poor expertise of online support                            1                                0                    3.0
+               16 Month-to-Month            1 Dissatisfaction           Poor expertise of phone support                            2                                0                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            2                                0                    0.0
+               36 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            2                                1                    0.0
+               45       One Year            1 Dissatisfaction                 Limited range of services                            6                                0                    0.0
+               25 Month-to-Month            1           Price                            Price too high                            2                                2                    2.0
+               39 Month-to-Month            1           Other                                Don't know                            5                                0                    1.0
+               31 Month-to-Month            1           Other                                Don't know                            4                                0                    0.0
+                3 Month-to-Month            1      Competitor             Competitor had better devices                            4                                3                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            3                                3                    0.0
+               33 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            0                                0                    0.0
+                7 Month-to-Month            1        Attitude                Attitude of support person                            1                                0                    2.0
+               19 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                1                    0.0
+                8 Month-to-Month            1           Other                                Don't know                            3                                1                    1.0
+               13 Month-to-Month            1        Attitude                Attitude of support person                            6                                1                    0.0
+               10 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    1.0
+                5 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            2                                4                    1.0
+               10 Month-to-Month            1           Other                                  Deceased                            1                                2                    0.0
+               53       One Year            1           Other                                     Moved                            3                                0                    0.0
+               16 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    0.0
+                9 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    0.0
+               32 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+                8 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            3                                3                    0.0
+               12 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            5                                2                    0.0
+                4 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                1                    1.0
+               70 Month-to-Month            1      Competitor             Competitor had better devices                            3                                4                    1.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    3.0
+               47 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    0.0
+               12 Month-to-Month            1      Competitor             Competitor had better devices                            4                                3                    1.0
+               53 Month-to-Month            1           Price                            Price too high                            0                                0                    0.0
+               41 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            4                                4                    0.0
+                5 Month-to-Month            1           Price                            Price too high                            0                                0                    0.0
+               69 Month-to-Month            1      Competitor             Competitor had better devices                            6                                1                    0.0
+               14 Month-to-Month            1           Price                        Extra data charges                            2                                0                    0.0
+               32 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    0.0
+               50 Month-to-Month            1           Other          Poor expertise of online support                            5                                0                    3.0
+                2 Month-to-Month            1        Attitude                Attitude of support person                            3                                0                    1.0
+               23 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            0                                0                    0.0
+                2 Month-to-Month            1 Dissatisfaction                       Network reliability                            0                                0                    0.0
+               30 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    3.0
+                1 Month-to-Month            1 Dissatisfaction                 Limited range of services                            1                                0                    0.0
+               32 Month-to-Month            1           Price                        Extra data charges                            7                                0                    0.0
+               16 Month-to-Month            1           Price                            Price too high                            3                                1                    1.0
+               38 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            2                                1                    1.0
+                2 Month-to-Month            1           Other          Poor expertise of online support                            4                                0                    3.0
+               17 Month-to-Month            1      Competitor              Competitor made better offer                            1                                2                    0.0
+                3 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            4                                2                    1.0
+               43 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    1.0
+               10 Month-to-Month            1 Dissatisfaction                 Limited range of services                            3                                2                    1.0
+               37 Month-to-Month            1           Price  Lack of affordable download/upload speed                            5                                0                    0.0
+               12 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                2                    0.0
+               35 Month-to-Month            1           Other                                Don't know                            0                                0                    0.0
+                1 Month-to-Month            1 Dissatisfaction          Poor expertise of online support                            4                                0                    0.0
+                1 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                2                    1.0
+                9 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+               38       One Year            1           Price  Lack of affordable download/upload speed                            2                                2                    0.0
+               51 Month-to-Month            1           Price                     Long distance charges                            1                                0                    0.0
+                5 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            2                                1                    3.0
+                2 Month-to-Month            1           Price                     Long distance charges                            2                                0                    3.0
+                2 Month-to-Month            1           Price                        Extra data charges                            0                                0                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            6                                0                    1.0
+               53 Month-to-Month            1           Price                            Price too high                            3                                0                    0.0
+               51 Month-to-Month            1 Dissatisfaction                 Limited range of services                            1                                1                    0.0
+               72       Two Year            1           Price                        Extra data charges                            2                                0                    3.0
+                5 Month-to-Month            1 Dissatisfaction                       Network reliability                            3                                2                    1.0
+                1 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    3.0
+               11 Month-to-Month            1           Price                        Extra data charges                            0                                0                    0.0
+               50 Month-to-Month            1           Price                            Price too high                            1                                2                    0.0
+                5 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            3                                1                    0.0
+                5 Month-to-Month            1           Other                                     Moved                            0                                0                    0.0
+                9 Month-to-Month            1      Competitor             Competitor had better devices                            2                                2                    1.0
+                2 Month-to-Month            1      Competitor              Competitor offered more data                            4                                0                    0.0
+               51 Month-to-Month            1      Competitor              Competitor offered more data                            1                                0                    0.0
+               26 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            3                                4                    0.0
+               18 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            1                                3                    0.0
+                1 Month-to-Month            1 Dissatisfaction                 Limited range of services                            5                                0                    0.0
+                2 Month-to-Month            1      Competitor             Competitor had better devices                            4                                1                    1.0
+               29 Month-to-Month            1           Price                        Extra data charges                            6                                0                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            1                                1                    0.0
+               46 Month-to-Month            1      Competitor              Competitor made better offer                            4                                1                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    3.0
+               20 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+               46 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    0.0
+                2 Month-to-Month            1           Price  Lack of affordable download/upload speed                            3                                2                    1.0
+                1 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            1                                2                    1.0
+               41 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               66       Two Year            1      Competitor Competitor offered higher download speeds                            5                                0                    0.0
+               35 Month-to-Month            1      Competitor              Competitor offered more data                            0                                0                    0.0
+               10 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    2.0
+               26 Month-to-Month            1        Attitude                Attitude of support person                            7                                2                    3.0
+               18 Month-to-Month            1      Competitor              Competitor offered more data                            3                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor offered more data                            0                                0                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            6                                1                    0.0
+               43 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            4                                1                    1.0
+               25       One Year            1      Competitor              Competitor made better offer                            6                                0                    0.0
+               36 Month-to-Month            1           Price  Lack of affordable download/upload speed                            3                                0                    0.0
+                1 Month-to-Month            1           Price                     Long distance charges                            1                                2                    2.0
+               41       One Year            1           Other                                Don't know                            0                                0                    0.0
+                1 Month-to-Month            1           Other                                     Moved                            2                                0                    0.0
+                2 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               49 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    2.0
+                6 Month-to-Month            1      Competitor              Competitor offered more data                            3                                2                    0.0
+                7 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    1.0
+               20 Month-to-Month            1           Price                            Price too high                            1                                0                    0.0
+               54       One Year            1           Price  Lack of affordable download/upload speed                            1                                0                    2.0
+                2 Month-to-Month            1           Price                        Extra data charges                            1                                1                    3.0
+               30 Month-to-Month            1           Other                                Don't know                            0                                0                    0.0
+               58 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    1.0
+               68 Month-to-Month            1      Competitor              Competitor offered more data                            1                                0                    1.0
+               24 Month-to-Month            1           Price                            Price too high                            3                                0                    2.0
+               27 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            2                                1                    0.0
+                2 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               29 Month-to-Month            1        Attitude                Attitude of support person                            3                                0                    0.0
+                5 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    0.0
+               28 Month-to-Month            1      Competitor              Competitor made better offer                            5                                1                    2.0
+               24 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    0.0
+               43       One Year            1 Dissatisfaction                 Limited range of services                            3                                0                    0.0
+                2 Month-to-Month            1           Price                     Long distance charges                            0                                0                    0.0
+               66 Month-to-Month            1           Price                        Extra data charges                            4                                0                    2.0
+               66       One Year            1           Other                                Don't know                            0                                0                    0.0
+               31 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    1.0
+               37 Month-to-Month            1        Attitude              Attitude of service provider                            5                                1                    0.0
+               24 Month-to-Month            1        Attitude                Attitude of support person                            2                                1                    3.0
+                2 Month-to-Month            1        Attitude                Attitude of support person                            5                                1                    0.0
+                8 Month-to-Month            1      Competitor              Competitor offered more data                            3                                1                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            2                                2                    0.0
+                9 Month-to-Month            1        Attitude                Attitude of support person                            7                                0                    2.0
+               49 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    2.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               17 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            6                                1                    0.0
+                3 Month-to-Month            1           Price                            Price too high                            1                                0                    0.0
+               30 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            2                                2                    1.0
+               41 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    1.0
+               42 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    0.0
+               72       Two Year            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               11 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+                8 Month-to-Month            1           Price                            Price too high                            4                                1                    1.0
+                1 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                2                    0.0
+               27 Month-to-Month            1      Competitor             Competitor had better devices                            7                                2                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    0.0
+               54 Month-to-Month            1        Attitude                Attitude of support person                            5                                1                    1.0
+                4 Month-to-Month            1           Price  Lack of affordable download/upload speed                            2                                0                    1.0
+               25 Month-to-Month            1           Price                            Price too high                            3                                0                    0.0
+                9 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                1                    0.0
+               27 Month-to-Month            1           Other                                Don't know                            0                                0                    0.0
+               56 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    1.0
+               66       Two Year            1        Attitude                Attitude of support person                            2                                0                    0.0
+               24 Month-to-Month            1        Attitude              Attitude of service provider                            4                                1                    1.0
+               24 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               65       One Year            1      Competitor              Competitor made better offer                            4                                1                    1.0
+                1 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            0                                0                    0.0
+               15 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            3                                1                    2.0
+                8 Month-to-Month            1           Price                            Price too high                            4                                0                    0.0
+                7 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    2.0
+                9 Month-to-Month            1 Dissatisfaction                       Network reliability                            0                                0                    0.0
+               37 Month-to-Month            1           Other                                Don't know                            4                                1                    0.0
+                3 Month-to-Month            1           Other                                Don't know                            6                                0                    0.0
+               48 Month-to-Month            1      Competitor              Competitor offered more data                            6                                3                    0.0
+                8 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    0.0
+               37 Month-to-Month            1      Competitor Competitor offered higher download speeds                            0                                0                    0.0
+               28 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    0.0
+               36 Month-to-Month            1      Competitor              Competitor made better offer                            3                                2                    1.0
+                4 Month-to-Month            1      Competitor              Competitor made better offer                            6                                0                    0.0
+                8 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    0.0
+               50 Month-to-Month            1 Dissatisfaction                       Network reliability                            4                                1                    0.0
+               61       One Year            1      Competitor             Competitor had better devices                            4                                2                    0.0
+               40 Month-to-Month            1      Competitor Competitor offered higher download speeds                            1                                0                    3.0
+                2 Month-to-Month            1      Competitor              Competitor offered more data                            4                                0                    0.0
+               10 Month-to-Month            1        Attitude                Attitude of support person                            1                                0                    0.0
+               16 Month-to-Month            1 Dissatisfaction                 Limited range of services                            0                                0                    0.0
+                2 Month-to-Month            1           Price                     Long distance charges                            4                                1                    0.0
+               19 Month-to-Month            1           Price                        Extra data charges                            4                                3                    1.0
+                7 Month-to-Month            1        Attitude              Attitude of service provider                            1                                0                    0.0
+                3 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    0.0
+               40       One Year            1           Other                                     Moved                            3                                1                    3.0
+               47 Month-to-Month            1           Other                                     Moved                            3                                1                    3.0
+               15 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    0.0
+               24 Month-to-Month            1      Competitor Competitor offered higher download speeds                            3                                1                    1.0
+               15 Month-to-Month            1      Competitor Competitor offered higher download speeds                            5                                0                    0.0
+                1 Month-to-Month            1           Other                                Don't know                            5                                0                    0.0
+               36 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               34 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            3                                1                    1.0
+                1 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            5                                1                    3.0
+               47 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                1                    1.0
+               24 Month-to-Month            1 Dissatisfaction                 Limited range of services                            2                                0                    0.0
+               43       One Year            1 Dissatisfaction                   Service dissatisfaction                            4                                4                    0.0
+               16 Month-to-Month            1        Attitude                Attitude of support person                            2                                2                    2.0
+                5 Month-to-Month            1      Competitor              Competitor made better offer                            2                                1                    0.0
+               37 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+                5 Month-to-Month            1      Competitor              Competitor made better offer                            3                                2                    0.0
+               28 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    3.0
+               10 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    1.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            0                                0                    0.0
+               10 Month-to-Month            1           Other                                Don't know                            4                                1                    2.0
+                3 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+               12 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               26 Month-to-Month            1           Other                                Don't know                            4                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+               20 Month-to-Month            1           Price                     Long distance charges                            0                                0                    0.0
+               32 Month-to-Month            1           Price                            Price too high                            2                                0                    0.0
+                1 Month-to-Month            1 Dissatisfaction                       Network reliability                            3                                6                    0.0
+                5 Month-to-Month            1      Competitor             Competitor had better devices                            4                                1                    0.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            4                                0                    3.0
+                6 Month-to-Month            1           Other                                  Deceased                            0                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               15 Month-to-Month            1      Competitor Competitor offered higher download speeds                            0                                0                    0.0
+               16 Month-to-Month            1      Competitor              Competitor offered more data                            0                                0                    0.0
+               44       One Year            1      Competitor              Competitor made better offer                            0                                0                    0.0
+                3 Month-to-Month            1 Dissatisfaction                       Network reliability                            1                                3                    0.0
+                1 Month-to-Month            1 Dissatisfaction                 Limited range of services                            1                                0                    1.0
+               26 Month-to-Month            1           Price                            Price too high                            1                                0                    3.0
+               22 Month-to-Month            1           Other                                Don't know                            4                                1                    0.0
+               40 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    1.0
+                1 Month-to-Month            1           Price                     Long distance charges                            4                                0                    0.0
+               10 Month-to-Month            1        Attitude                Attitude of support person                            6                                0                    0.0
+                1 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    0.0
+               58       One Year            1        Attitude                Attitude of support person                            2                                1                    0.0
+                6 Month-to-Month            1        Attitude              Attitude of service provider                            4                                0                    2.0
+               71 Month-to-Month            1        Attitude                Attitude of support person                            3                                1                    0.0
+               20 Month-to-Month            1      Competitor             Competitor had better devices                            1                                2                    0.0
+               27 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    0.0
+               13 Month-to-Month            1           Other          Poor expertise of online support                            3                                1                    0.0
+               68       One Year            1        Attitude              Attitude of service provider                            1                                1                    1.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            0                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    1.0
+               15 Month-to-Month            1        Attitude                Attitude of support person                            6                                0                    0.0
+                9 Month-to-Month            1        Attitude              Attitude of service provider                            7                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    1.0
+               70       One Year            1        Attitude              Attitude of service provider                            4                                1                    0.0
+               20 Month-to-Month            1        Attitude              Attitude of service provider                            2                                0                    2.0
+               21 Month-to-Month            1        Attitude                Attitude of support person                            6                                0                    2.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    1.0
+               46       One Year            1      Competitor Competitor offered higher download speeds                            2                                0                    0.0
+               14 Month-to-Month            1      Competitor              Competitor made better offer                            2                                0                    1.0
+               47 Month-to-Month            1           Price                            Price too high                            1                                1                    0.0
+               13 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            0                                0                    0.0
+                3 Month-to-Month            1        Attitude                Attitude of support person                            5                                1                    3.0
+               26 Month-to-Month            1 Dissatisfaction                       Network reliability                            4                                3                    2.0
+                8 Month-to-Month            1 Dissatisfaction                 Limited range of services                            6                                1                    0.0
+               18 Month-to-Month            1        Attitude                Attitude of support person                            1                                2                    3.0
+                4 Month-to-Month            1           Other          Poor expertise of online support                            2                                0                    0.0
+               15 Month-to-Month            1           Other                                Don't know                            1                                1                    0.0
+                3 Month-to-Month            1      Competitor             Competitor had better devices                            1                                1                    0.0
+               53 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    0.0
+               68 Month-to-Month            1      Competitor              Competitor offered more data                            2                                0                    3.0
+               25 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+               66       One Year            1      Competitor              Competitor made better offer                            1                                2                    0.0
+               27 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            2                                2                    0.0
+               29 Month-to-Month            1      Competitor             Competitor had better devices                            1                                6                    0.0
+                1 Month-to-Month            1           Other                                Don't know                            2                                1                    0.0
+                2 Month-to-Month            1      Competitor             Competitor had better devices                            2                                3                    1.0
+               29 Month-to-Month            1      Competitor Competitor offered higher download speeds                            0                                0                    0.0
+               19 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+               47 Month-to-Month            1      Competitor Competitor offered higher download speeds                            1                                0                    2.0
+               52 Month-to-Month            1      Competitor Competitor offered higher download speeds                            1                                0                    1.0
+               11 Month-to-Month            1           Price                        Extra data charges                            1                                0                    0.0
+               43 Month-to-Month            1 Dissatisfaction                       Network reliability                            1                                1                    0.0
+               46 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    0.0
+                6 Month-to-Month            1        Attitude                Attitude of support person                            3                                0                    0.0
+                1 Month-to-Month            1        Attitude              Attitude of service provider                            3                                0                    1.0
+                1 Month-to-Month            1        Attitude                Attitude of support person                            5                                0                    2.0
+               22 Month-to-Month            1           Other                                     Moved                            0                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor offered more data                            3                                1                    0.0
+               33 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    2.0
+                2 Month-to-Month            1      Competitor             Competitor had better devices                            5                                1                    0.0
+               26 Month-to-Month            1           Price                            Price too high                            6                                0                    0.0
+               60       One Year            1           Price                     Long distance charges                            3                                0                    0.0
+               38 Month-to-Month            1 Dissatisfaction                   Product dissatisfaction                            1                                3                    1.0
+                1 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            4                                1                    0.0
+                7 Month-to-Month            1           Other                                Don't know                            0                                0                    0.0
+                2 Month-to-Month            1           Other                                Don't know                            2                                0                    0.0
+               51 Month-to-Month            1      Competitor              Competitor offered more data                            7                                0                    0.0
+                1 Month-to-Month            1           Price                            Price too high                            1                                0                    2.0
+               47 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    0.0
+               40 Month-to-Month            1           Other                                Don't know                            3                                0                    0.0
+                1 Month-to-Month            1      Competitor             Competitor had better devices                            0                                0                    0.0
+                2 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    0.0
+               42 Month-to-Month            1 Dissatisfaction                       Network reliability                            1                                2                    1.0
+                2 Month-to-Month            1           Price                        Extra data charges                            0                                0                    0.0
+               14 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            0                                0                    0.0
+               66       One Year            1        Attitude              Attitude of service provider                            2                                0                    3.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            6                                0                    0.0
+               12 Month-to-Month            1      Competitor              Competitor made better offer                            5                                0                    0.0
+                6 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    0.0
+               27 Month-to-Month            1      Competitor              Competitor offered more data                            6                                0                    3.0
+                3 Month-to-Month            1      Competitor              Competitor made better offer                            3                                0                    2.0
+                2 Month-to-Month            1           Price                            Price too high                            1                                0                    0.0
+               14 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            3                                1                    3.0
+               57 Month-to-Month            1 Dissatisfaction                       Network reliability                            4                                3                    1.0
+               64       Two Year            1           Price  Lack of affordable download/upload speed                            1                                0                    0.0
+                2 Month-to-Month            1           Price                     Long distance charges                            3                                0                    2.0
+               40 Month-to-Month            1           Price                            Price too high                            3                                0                    1.0
+                1 Month-to-Month            1 Dissatisfaction                       Network reliability                            2                                2                    0.0
+               37 Month-to-Month            1      Competitor             Competitor had better devices                            1                                3                    0.0
+                4 Month-to-Month            1      Competitor              Competitor offered more data                            1                                0                    0.0
+               55 Month-to-Month            1           Price                            Price too high                            1                                0                    2.0
+               32 Month-to-Month            1 Dissatisfaction                   Service dissatisfaction                            1                                1                    0.0
+               66 Month-to-Month            1        Attitude                Attitude of support person                            7                                1                    0.0
+                6 Month-to-Month            1 Dissatisfaction                 Limited range of services                            2                                1                    2.0
+                4 Month-to-Month            1           Other                                Don't know                            2                                3                    0.0
+                3 Month-to-Month            1        Attitude                Attitude of support person                            3                                2                    3.0
+                8 Month-to-Month            1        Attitude                Attitude of support person                            4                                0                    3.0
+                3 Month-to-Month            1        Attitude              Attitude of service provider                            2                                0                    2.0
+               43 Month-to-Month            1      Competitor             Competitor had better devices                            2                                1                    0.0
+               13 Month-to-Month            1        Attitude                Attitude of support person                            2                                2                    0.0
+               27 Month-to-Month            1        Attitude              Attitude of service provider                            0                                0                    0.0
+               25 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    1.0
+               22 Month-to-Month            1      Competitor             Competitor had better devices                            3                                1                    0.0
+               18 Month-to-Month            1        Attitude                Attitude of support person                            2                                0                    0.0
+               56       One Year            1        Attitude              Attitude of service provider                            3                                0                    0.0
+               16 Month-to-Month            1      Competitor             Competitor had better devices                            1                                5                    0.0
+               50 Month-to-Month            1      Competitor              Competitor made better offer                            1                                0                    0.0
+                3 Month-to-Month            1      Competitor             Competitor had better devices                            4                                2                    0.0
+                1 Month-to-Month            1           Other                                Don't know                            1                                0                    0.0
+                1 Month-to-Month            1      Competitor              Competitor made better offer                            4                                0                    0.0
+                4 Month-to-Month            1      Competitor              Competitor made better offer                            2                                2                    0.0
+               71       Two Year            0               0                                         0                            0                                0                    0.0
+                2       One Year            0               0                                         0                            1                                0                    5.0
+                1       One Year            0               0                                         0                            0                                0                    0.0
+               43       One Year            0               0                                         0                            1                                0                    0.0
+               25       One Year            0               0                                         0                            0                                0                    0.0
+               60       One Year            0               0                                         0                            0                                0                    0.0
+               66       One Year            0               0                                         0                            1                                0                    0.0
+               64       Two Year            0               0                                         0                            1                                0                    4.0
+               56       One Year            0               0                                         0                            2                                0                    0.0
+               30       One Year            0               0                                         0                            1                                0                    0.0
+                1       One Year            0               0                                         0                            0                                0                    0.0
+               66       One Year            0               0                                         0                            0                                0                    0.0
+               71       One Year            0               0                                         0                            2                                0                    3.0
+               72       Two Year            0               0                                         0                            2                                0                    0.0
+               71       Two Year            0               0                                         0                            1                                0                    0.0
+               23       One Year            0               0                                         0                            1                                0                    0.0
+               65       One Year            0               0                                         0                            0                                0                    0.0
+               13       One Year            0               0                                         0                            1                                1                    4.0
+                4       One Year            0               0                                         0                            0                                0                    0.0
+               29       One Year            0               0                                         0                            0                                0                    0.0
+               57       One Year            0               0                                         0                            0                                0                    0.0
+               19       One Year            0               0                                         0                            1                                0                    0.0
+               20       One Year            0               0                                         0                            0                                0                    0.0
+               21       One Year            0               0                                         0                            2                                0                    0.0
