@@ -11,6 +11,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
+import os
 
 # CSV file has been loaded to PAIWP_ASSIGNMENT GitHub repository
 
@@ -131,7 +132,60 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
 
+###HYPER
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import GridSearchCV
+
+# Define the parameter grid
+param_grid = {'alpha': [0.01, 0.1, 1, 10, 100]}
+# Initialize GridSearchCV
+ridge_model = Ridge()
+grid_search = GridSearchCV(estimator=ridge_model, param_grid=param_grid, cv=5, scoring='neg_mean_squared_error', n_jobs=-1, verbose=2)
+# Perform hyperparameter tuning
+grid_search.fit(X_train, y_train)
+# Get the best parameters
+best_params = grid_search.best_params_
+print(f"Best parameters: {best_params}")
+# Use the best model
+best_ridge_model = grid_search.best_estimator_
+
+####
+
+from sklearn.metrics import mean_squared_error
+
+# Predict on the test set
+y_pred = best_ridge_model.predict(X_test)
+
+# Calculate and print the mean squared error
+mse = mean_squared_error(y_test, y_pred)
+print(f"Mean Squared Error: {mse}")
+
+
+
 ###
 import joblib
 
 joblib.dump(model,'model.pkl')
+
+#############XAI
+
+# Explain the model's predictions using SHAP
+
+import shap
+
+# Load the model
+model = joblib.load('model.pkl')
+
+# Create a SHAP explainer
+explainer = shap.Explainer(model, X_train)
+
+# Calculate SHAP values
+shap_values = explainer(X_test)
+
+# Visualize the SHAP summary plot
+shap.summary_plot(shap_values, X_test, plot_type="bar")
+
+# Save the plot as an image (e.g., PNG)
+import matplotlib.pyplot as plt
+
+plt.savefig('shap_summary_plot.png')
