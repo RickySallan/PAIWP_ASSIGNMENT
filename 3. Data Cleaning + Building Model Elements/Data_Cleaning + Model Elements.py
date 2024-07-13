@@ -111,6 +111,8 @@ with open(full_file_path_encoded_head, 'w') as f:
     f.write(df_head_encoded_str)
 
 ##############################################################################################################################################
+#4. Feature Engineering
+
 # Separate the features and the target variable
 X = df_encoded.drop('Churn Value', axis=1)
 y = df_encoded['Churn Value']
@@ -131,8 +133,10 @@ y_pred = model.predict(X_test)
 # Calculate and print the mean squared error
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
+##############################################################################################################################################
 
-###HYPER
+##############################################################################################################################################
+# 5. HYPERTUNING
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import GridSearchCV
 
@@ -148,8 +152,10 @@ best_params = grid_search.best_params_
 print(f"Best parameters: {best_params}")
 # Use the best model
 best_ridge_model = grid_search.best_estimator_
+##############################################################################################################################################
 
-####
+##############################################################################################################################################
+# 6. MODEL EVALUTION
 
 from sklearn.metrics import mean_squared_error
 
@@ -159,15 +165,16 @@ y_pred = best_ridge_model.predict(X_test)
 # Calculate and print the mean squared error
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
+##############################################################################################################################################
 
-
-
-###
+##############################################################################################################################################
 import joblib
 
 joblib.dump(model,'model.pkl')
+##############################################################################################################################################
 
-#############XAI
+##############################################################################################################################################
+# 7. XAI
 
 # Explain the model's predictions using SHAP
 
@@ -189,3 +196,4 @@ shap.summary_plot(shap_values, X_test, plot_type="bar")
 import matplotlib.pyplot as plt
 
 plt.savefig('shap_summary_plot.png')
+##############################################################################################################################################
