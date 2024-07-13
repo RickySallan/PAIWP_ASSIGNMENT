@@ -32,7 +32,7 @@ df_cleaned=df.drop(columns=columns_to_drop).fillna(0)
 
 import os
 
-output_folder='/workspaces/PAIWP_ASSIGNMENT/3. Data Cleaning'
+output_folder='/workspaces/PAIWP_ASSIGNMENT/3. Data Cleaning + Building Model Elements'
 
 # df_cleaned.shape - How many rows and columns does the dataset have? -- I have also used this function to test if the file has been loaded successfully
 df_cleaned_shape=df_cleaned.shape
