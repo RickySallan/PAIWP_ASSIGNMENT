@@ -7,6 +7,10 @@
 # 1. LOAD THE DATASET
 
 import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 
 # CSV file has been loaded to PAIWP_ASSIGNMENT GitHub repository
 
@@ -105,5 +109,26 @@ full_file_path_encoded_head=os.path.join(output_folder,file_path_encoded_head)
 with open(full_file_path_encoded_head, 'w') as f:
     f.write(df_head_encoded_str)
 
-print(df_encoded)
+##############################################################################################################################################
+# Separate the features and the target variable
+X = df_encoded.drop('Churn Value', axis=1)
+y = df_encoded['Churn Value']
+
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize the Linear Regression model
+model = LinearRegression()
+
+# Train the model
+model.fit(X_train, y_train)
+
+# Predict on the test set
+y_pred = model.predict(X_test)
+
+# Calculate and print the mean squared error
+mse = mean_squared_error(y_test, y_pred)
+print(f"Mean Squared Error: {mse}")
+
 
