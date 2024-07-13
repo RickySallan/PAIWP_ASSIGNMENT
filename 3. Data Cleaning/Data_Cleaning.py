@@ -174,10 +174,10 @@ joblib.dump(model,'model.pkl')
 import shap
 
 # Load the model
-model = joblib.load('model.pkl')
+model1 = joblib.load('model.pkl')
 
 # Create a SHAP explainer
-explainer = shap.Explainer(model, X_train)
+explainer = shap.Explainer(model1, X_train)
 
 # Calculate SHAP values
 shap_values = explainer(X_test)
